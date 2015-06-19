@@ -11,13 +11,11 @@
 * 在显示大量数据时具有较低的内存占用的特点。
 
 ### 安装指南
-1.  安装地址： https://github.com/mmslate/EUPage.git
-2.  安装步骤：
-    * 将工程拖到需要使用的项目中
-    * 依次添加以下FrameWork : SDWebImageView,Mapkit,ImageIO
-    * BuildingSetting-> linking ->otherLinker FLags  添加如下参数：-ObjC
+ 建议使用[CocoaPods](http://cocoapods.org)来安装EUPage，请加入以下这行到你的`Podfile`:
 
-    最后可以build 试下是否编译通过检查是否安装成功。
+```ruby
+pod 'EUPage'
+```
      
 ### 使用指南
 ####  框架基本结构介绍
