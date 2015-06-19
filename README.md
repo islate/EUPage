@@ -1,8 +1,8 @@
 ## 通用文章页组件项目总结
 ### 项目介绍
- 目前文章页模块的主要功能是用来展示Html,Picture，Video，Pdf等格式的文件，手动实现了页面的展示，循环，重用逻辑。随着iOS 版本的不断迭代，功能和控件也在不断丰富，在经过一系列的技术调研后，发现已经有更好技术来实现该功能。
+ 目前文章页模块的主要功能是用来展示Html, Picture，Video，Pdf等格式的文件，手动实现了页面的展示，循环，重用逻辑。随着iOS 版本的不断迭代，功能和控件也在不断丰富，在经过一系列的技术调研后，发现已经有更好技术来实现该功能。
  
-本项目主要是为了解决一般的内容展示需求，本项目在UICollectionView 的基础上，对其进行扩展，封装，目前能够很好的解决html,picture，video 不同类型的内容展示需求，同时具有很好扩展性能。
+本项目主要是为了解决一般的内容展示需求，本项目在UICollectionView 的基础上，对其进行扩展，封装，目前能够很好的解决html, picture，video 不同类型的内容展示需求，同时具有很好扩展性能。
 本项目的功能点主要有以下几点：
 * 默认支持展示网页，图片，视频的展示。
 * 可以手动设置是否支持循环展示。
@@ -11,7 +11,7 @@
 * 在显示大量数据时具有较低的内存占用的特点。
 
 ### 安装指南
-1.  安装地址： http://gitlab-proxy.bbwc.cn/ios/slatecore.git
+1.  安装地址： https://github.com/mmslate/EUPage.git
 2.  安装步骤：
     * 将工程拖到需要使用的项目中
     * 依次添加以下FrameWork : SDWebImageView,Mapkit,ImageIO
@@ -193,5 +193,3 @@ EUPageView *_showCycleView = [[EUPageView alloc] initWithFrame:self.view.bounds 
 
 git 地址（可以在浏览器输入地址查看：http://7fvh6h.com1.z0.glb.clouddn.com/blogdebug3.gif）：
 ![使用图片介绍](http://7fvh6h.com1.z0.glb.clouddn.com/blogdebug3.gif)
-
-视频地址：   http://debug.bbwc.cn/uploadfile/video/bloomberg/2015/06/04/20150604203316406/20150604203316406.mp4
