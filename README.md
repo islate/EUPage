@@ -66,11 +66,11 @@ EUPageView *_showCycleView = [[EUPageView alloc] initWithFrame:self.view.bounds 
  ```
  - (EUBaseModel *)modelForItemAtRow:(NSInteger)row
    {
-       if（row==0）
-     {
-         EUBaseModel *dataModel = [[EUBaseModel alloc] init];
-        dataModel.resourceUrl =    @"http://c.hiphotos.baidu.com/image/pic/item/622762d0f703918f925bf2cd533d269759eec42b.jpg";
-   dataModel.cellType = CellTypeImage;
+      if（row==0）
+      {
+        EUBaseModel *dataModel = [[EUBaseModel alloc] init];
+        dataModel.resourceUrl = @"http://s.cn.bing.net/az/hprichbg/rb/WaterliliesYuanmingyuan_ZH-CN10533925188_1920x1080.jpg";
+        dataModel.cellType = CellTypeImage;
        }
     }
  ```
@@ -150,16 +150,16 @@ EUPageView *_showCycleView = [[EUPageView alloc] initWithFrame:self.view.bounds 
       特别要注意，在使用自定义的cell的cell 时应该调用方法： setCellClass 。参数应该是上文中自定义的Cell 
 
     ```
-       - (EUBaseModel *)modelForItemAtRow:(NSInteger)row
-     {
-         if（row==1）
-         {
-        EUMediaModel* specDataModel = [[EUMediaModel alloc] init];
-        [specDataModel setCellClass:[EUMediaViewCell class]];
-        specDataModel.videoUrl = @"http://debug.bbwc.cn/uploadfile/video/iweekly_android/2015/05/29/20150529120500960/20150529120500960.mp4";
-        specDataModel.imageUrl =@"http://c.hiphotos.baidu.com/image/pic/item/622762d0f703918f925bf2cd533d269759eec42b.jpg";
-        specDataModel.webUrl =@"http://content.cdn.bb.bbwc.cn/v5/app1/issue_1129/articles/10056555/show-1-6-1129-304-10056555-1_1433397639.html";
-        return specDataModel;
+      - (EUBaseModel *)modelForItemAtRow:(NSInteger)row
+      {
+        if（row==1）
+        {
+          EUMediaModel* specDataModel = [[EUMediaModel alloc] init];
+          [specDataModel setCellClass:[EUMediaViewCell class]];
+          specDataModel.videoUrl = @"http://7b1gcw.com1.z0.glb.clouddn.com/20150529120500960.mp4";
+          specDataModel.imageUrl = @"http://s.cn.bing.net/az/hprichbg/rb/WaterliliesYuanmingyuan_ZH-CN10533925188_1920x1080.jpg";
+          specDataModel.webUrl = @"http://www.bing.com";
+          return specDataModel;
         }
     }
     ```
