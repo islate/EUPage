@@ -189,5 +189,5 @@ EUPageView *_showCycleView = [[EUPageView alloc] initWithFrame:self.view.bounds 
 * 展示了一个 自定义的Cell和Model 在一个页面上同时展示视频，图片，网页
 * 展示了如何处理旋转。
 
-git 地址（可以在浏览器输入地址查看：http://7fvh6h.com1.z0.glb.clouddn.com/blogdebug3.gif）：
-![使用图片介绍](http://7fvh6h.com1.z0.glb.clouddn.com/blogdebug3.gif)
+git 地址（可以在浏览器输入地址查看：http://7b1gcw.com1.z0.glb.clouddn.com/demo.gif）：
+![使用图片介绍](http://7b1gcw.com1.z0.glb.clouddn.com/demo.gif)
