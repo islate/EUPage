@@ -1,0 +1,24 @@
+PODS:
+  - EUPage (0.1.0):
+    - SlateWebImageView (~> 0.1.0)
+  - PBJVideoPlayer (0.2.0)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SlateActivityIndicatorView (0.1.0)
+  - SlateWebImageView (0.1.1):
+    - PBJVideoPlayer (~> 0.2.0)
+    - SDWebImage (~> 3.7.2)
+    - SlateActivityIndicatorView (~> 0.1.0)
+
+DEPENDENCIES:
+  - EUPage (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  EUPage: 9f490146c1c2165ec8b3c943f52940cfc15ebc7f
+  PBJVideoPlayer: 60e8601398ba0fc1e38c431863c9222b4f4b7153
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SlateActivityIndicatorView: 234ad661f29123b34baf986b2e965b802f025cc5
+  SlateWebImageView: 1f0a73c1ffe5df5671bad80a4cc31cbafd773395
+
+COCOAPODS: 0.37.2
